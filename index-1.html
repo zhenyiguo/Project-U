@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ishareXUOS</title>
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href='css/main.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+
+<style>
+.lastpart {
+  background: #242424;
+  color: #cfcfcf;
+  font-size: 1rem;
+  display: table;
+  width: 100%;
+}
+
+.lastpart .information{
+ margin-top: 0;
+ display: table;
+ width: 100%;
+ max-width: 1200px;
+ margin: 1em auto 0;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+ color: #cfcfcf;
+ font-size: 1rem;
+}
+
+.lastpart .information table{
+ float: left;
+ width: 60%;
+ box-sizing: border-box;
+ padding: 2em .5em;
+   padding-top: 2em;
+   padding-right: 0.5em;
+   padding-bottom: 2em;
+   padding-left: 0.5em;
+}
+
+div {
+  display: block;
+}
+
+.lastpart .information table{
+  margin-left: 0;
+}
+
+.lastpart .information table {
+   float: left;
+   width: 60%;
+   margin: 0;
+     margin-top: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     margin-left: 0px;
+}
+
+table {
+  display: block;
+ -webkit-margin-before: 1em;
+ -webkit-margin-after: 1em;
+ -webkit-margin-start: 0px;
+ -webkit-margin-end: 0px;
+}
+
+ .lastpart .information table a{
+   color: #cfcfcf;
+   text-decoration: none;
+     text-decoration-line: none;
+     text-decoration-style: initial;
+     text-decoration-color: initial;
+   transition: .2s;
+     transition-property: initial;
+     transition-duration: 0.2s;
+     transition-timing-function: initial;
+     transition-delay: initial;
+}
+
+ .lastpart .information table{
+ display: inline-block;
+ min-width: 100px;
+ font-size: 1rem;
+ border-bottom: 1px solid #686868;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(104,104,104);
+ margin-bottom: 1.4em;
+ color: #fff;
+  }
+
+table {
+   display: block;
+   border-collapse:separate;
+   border-spacing: 7px;
+     -webkit-border-horizontal-spacing: 60px;
+     -webkit-border-vertical-spacing: 4px;
+}
+
+
+table {
+   display: block;
+   -webkit-margin-start: 40px;
+}
+th {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  margin-right: 10px;
+}
+
+a {
+  font-size: 1.33rem;
+  background-color: transparent;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: auto;
+  text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: initial;
+    text-decoration-style: initial;
+}
+.sub {
+   float: right;
+   box-sizing: border-box;
+   padding: 2em .5em;
+     padding-top: 1em;
+     padding-right: 20em;
+     padding-bottom: 10em;
+     padding-left: 0.5em;
+}
+
+.sub h5 {
+   font-size: 2rem;
+   margin: 0;
+     margin-top: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     margin-left: 0px;
+   color: #fff;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  -webkit-margin-before: 3em;
+  -webkit-margin-after: 3em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+
+
+
+.youremail {
+   margin: 1em 0;
+     margin-top: 1em;
+     margin-right: 0px;
+     margin-bottom: 1em;
+     margin-left: 0px;
+}
+
+form {
+  display:block;
+  margin-top: 0em;
+}
+
+.blankemail{
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.blankemail input{
+  line-height: normal;
+  height: 2.8em;
+  border: 1px solid #cfcfcf;
+    border-top-color: rgb(207, 207, 207);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(207, 207, 207);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(207, 207, 207);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(207, 207, 207);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+  border-radius: 1.4em;
+    border-top-left-radius: 1.4em;
+    border-top-right-radius: 1.4em;
+    border-bottom-right-radius: 1.4em;
+    border-bottom-left-radius: 1.4em;
+  background: transparent;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+  color: #cfcfcf;
+  padding: 0 5%;
+    padding-top: 0px;
+    padding-right: 5%;
+    padding-bottom: 0px;
+    padding-left: 5%;
+  box-sizing: border-box;
+  width: 17rem;
+
+}
+
+.yoursubmition{
+   font-size: 12px;
+   padding-left: 1rem;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.yoursubmition button {
+   background: #cfcfcf;
+   color: #242424;
+   text-align: center;
+   width: 100%;
+   border: 0;
+     border-top-color: initial;
+     border-top-style: initial;
+     border-top-width: 0px;
+     border-right-color: initial;
+     border-right-style: initial;
+     border-right-width: 0px;
+     border-bottom-color: initial;
+     border-bottom-style: initial;
+     border-bottom-width: 0px;
+     border-left-color: initial;
+     border-left-style: initial;
+     border-left-width: 0px;
+     border-image-source: initial;
+     border-image-slice: initial;
+     border-image-width: initial;
+     border-image-outset: initial;
+     border-image-repeat: initial;
+   line-height: 2.5em;
+   font-size: 1.2em;
+   border-radius: 1em;
+     border-top-left-radius: 1.4em;
+     border-top-right-radius: 1.4em;
+     border-bottom-right-radius: 1.4em;
+     border-bottom-left-radius: 1.4em;
+   padding: 1.5rem;
+     padding-top: 5px;
+     padding-right: 0.5rem;
+     padding-bottom: 0px;
+     padding-left: 0.5rem;
+   cursor: pointer;
+}
+
+
+
+
+}
+button, input, optgroup, select, textarea {
+ font-family: sans-serif;
+ font-size: 100%;
+ line-height: 1.15;
+ margin: 0;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+}
+
+
+input, textarea, select, button {
+ text-rendering: auto;
+ letter-spacing: normal;
+ word-spacing: normal;
+ text-transform: none;
+ text-indent: 0px;
+ text-shadow: none;
+ display: inline-block;
+ margin: 0;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+ font: 13.3333px Arial;
+   font-style: normal;
+   font-variant-ligatures: normal;
+   font-variant-caps: normal;
+   font-variant-numeric: normal;
+   font-weight: normal;
+   font-stretch: normal;
+   font-family: Arial;
+ }
+
+ button {
+   -webkit-appearance: button;
+ }
+
+.sub p {
+   line-height: 1.5;
+   margin: 0;
+     margin-top: 5px;
+     margin-right: 0px;
+     margin-bottom: 20px;
+     margin-left: 0px;
+   color: #cfcfcf;
+ }
+
+ p {
+   font-size: 1.33rem;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+ }
+.sub p a{
+   color: #00a7e1;
+}
+
+.socialmedia {
+  padding-top: 2.4rem;
+  white-space: nowrap;
+}
+
+.socialmedia a{
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  background: #cfcfcf;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(207, 207, 207);
+ text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+ border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+ margin-right: 6%;
+ transition: .2s;
+    transition-property: initial;
+    transition-duration: 0.2s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+</style>
+
+
+</head>
+
+<body>
+
+  <div class='backgroundpic'>
+
+  <div class="top">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Nanum+Pen+Script|Permanent+Marker" rel="stylesheet">
+    <h1>Expreience sharing</h1>
+
+
+  <div class='form'>
+
+
+    <form role='form'>
+      <label for="email">Find out more</label>
+      <input type="text" name="email" >
+      <button type="submit" class="btn btn-success">Send</button>
+  </div>
+</div>
+
+
+  </div>
+
+<div class="kong">
+
+</div>
+
+
+  <div id="buzz" class="row">
+
+    <div class="col-xs-4">
+
+      <img class="img" src='images/study.jpg'>
+</div>
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      			<div class="panel panel-default">
+       			<div class="panel-heading" id="headingOne" role="tab">
+          		<h4 class="panel-title">
+           		 <a role="button" aria-expanded="true" aria-controls="collapseOne" href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+             <strong>STUDY</strong>
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse in" id="collapseOne" role="tabpanel" aria-expanded="true" aria-labelledby="headingOne">
+          <div class="panel-body">
+            We are a small <span class="blue">consulting firm</span> based in Coventry in the UK. We do our very best to ensure that your business operations live up to your vision. Specialising in <span class="blue">business process re-engineering, total quality management and lean management techniques</span>, our advice may be just what you need to catapult your business to the top of the ranks.
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+    <div class="col-xs-4">
+      <img class="img" src='images/career.jpg'>
+    </div>
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      			<div class="panel panel-default">
+       			<div class="panel-heading" id="headingOne" role="tab">
+          		<h4 class="panel-title">
+           		 <a role="button" aria-expanded="true" aria-controls="collapseOne" href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+             <strong>CRAEER</strong>
+            </a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse in" id="collapseOne" role="tabpanel" aria-expanded="true" aria-labelledby="headingOne">
+          <div class="panel-body">
+            We are a small <span class="blue">consulting firm</span> based in Coventry in the UK. We do our very best to ensure that your business operations live up to your vision. Specialising in <span class="blue">business process re-engineering, total quality management and lean management techniques</span>, our advice may be just what you need to catapult your business to the top of the ranks.
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="col-xs-4">
+      <img class="img" src='images/question.jpg'>
+    </div>
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    			<div class="panel panel-default">
+     			<div class="panel-heading" id="headingOne" role="tab">
+        		<h4 class="panel-title">
+         		 <a role="button" aria-expanded="true" aria-controls="collapseOne" href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+           <strong>Who we are</strong>
+          </a>
+        </h4>
+      </div>
+      <div class="panel-collapse collapse in" id="collapseOne" role="tabpanel" aria-expanded="true" aria-labelledby="headingOne">
+        <div class="panel-body">
+          We are a small <span class="blue">consulting firm</span> based in Coventry in the UK. We do our very best to ensure that your business operations live up to your vision. Specialising in <span class="blue">business process re-engineering, total quality management and lean management techniques</span>, our advice may be just what you need to catapult your business to the top of the ranks.
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+  <div id="mission">
+    <h2><small>Our mission</small><br />Join us in helping busy professionals eat healthily</h2>
+
+
+    <p class="lead">We believe that healthy workers are more productive workers.</p>
+    <p class="lead">Providing your team with a healthy lunch each day improves both motivation and morale.</p>
+    <p class="lead">We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
+
+    <div id="social-buttons">
+      <button class="btn-lg btn-twitter">Twitter</button>
+      <button class="btn-lg btn-facebook">Facebook</button>
+      <button class="btn-lg btn-pinterest">Pinterest</button>
+    </div>
+  </div>
+
+
+  <div class="lastpart">
+     <div class="information">
+      <table class="toggleindefined">
+       <tbody>
+         <tr>
+           <th>
+             About
+           </th>
+           <th>
+             Suooprt
+           </th>
+         </tr>
+         <tr>
+           <td><a target="_blank" href="/about">our team</a></td>
+           <td><a targer="_blank" href="/sources">sources</a></td>
+         <tr>
+           <td><a target="_blank" href="/contact">contact us</a></td>
+           <td><a target="_blank" href="_terms of use">terms of use</a></td>
+         </tr>
+         <tr>
+           <td> </td>
+           <td><a targer="_blank" href="_privacy policy">privacy policy</a></td>
+         </tr>
+       </tbody>
+     </table>
+
+     </div>
+
+     <div class="sub">
+       <h5>Subscribe</h5>
+       <p>Access Exclusive offers,news,and more.</p>
+       <form class="youremail">
+         <div class="blankemail">
+           <input autocomplete="off" name="email" value placeholder="Enter Your Email Address">
+         </div>
+         <div class="yoursubmition">
+           <button type="submit">SUBSCRIBE</button>
+         </div>
+       </form>
+       <p>
+         By clicking 'SUBSCRIBE'
+         <br>
+         you agree to the
+         <a target="_blank" href="_terms of use">terms of use</a>
+         and
+         <a targer="_blank" href="_privacy policy">privacy policy</a>
+         .
+       </p>
+     </div>
+   </div>
+
+   <div class="socialmedia">
+     <a class="facebook" targer="_blank">
+       <i class="iconfont"></i>
+     </a>
+     <a class="twitter" targer="_blank">
+       <i class="iconfont"></i>
+     </a>
+     <a class="youtube" targer="_blank">
+       <i class="iconfont"></i>
+     </a>
+     <a class="instagram" targer="_blank">
+       <i class="iconfont"></i>
+     </a>
+   </div>
+
+
+
+
+     </dl>
+   </div>
+
+
+
+
+</body>
+
+
+<!-- Sandwich from: © Kosoff | <a href="http://www.dreamstime.com/">Dreamstime Stock Photos</a> & <a href="http://www.stockfreeimages.com/">Stock Free Images</a> -->
+</html>
