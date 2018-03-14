@@ -1,0 +1,48 @@
+
+
+  .btn-twitter {
+    background-color: #00acee;
+     border-color: #009ad5;
+    }
+
+  .btn-facebook {
+         background-color: #4868ac;
+          border-color: #314776;
+       }
+
+   .btn-pinterest {
+              background-color: #b62f26;
+              border-color: #b62f26;
+    }
+
+.backgroundpic {
+   background-image: url('../images/first page.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+   min-height: 700px; }
+
+  .img{
+    width: 350px;
+    height: 250px;
+  }
+
+  .kong{
+    margin-top:100px;
+  }
+.top{
+  font-family: 'Pacifico', cursive;
+  margin-left: 80px;
+}
+h1{
+  font-size: 90px;
+  padding-top: 330px;
+
+}
+.form{
+  padding-top: 120px;
+}
+.panel-body{
+ height: 211px;
+}
